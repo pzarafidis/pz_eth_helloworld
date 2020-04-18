@@ -19,8 +19,21 @@ contract HelloWorld {
   }
 }
 ```
-PZ: on ubuntu 18 virtual box vm
-PZ: Does not work so check in contracts folder for needed changes
+#PZ: on ubuntu 18 virtual box vm
+#PZ: Did not work so check in contracts folder for needed changes
+```
+//pragma solidity ^0.4.8;
+pragma solidity >=0.4.21 <0.7.0;
+
+// This is just a simple hello-world smart contract
+contract HelloWorld {
+  uint public balance;
+
+constructor() public {
+    balance = 1000;
+  }
+}
+```
 ## PZ UNTIl HERE
 
 ### 2. Compile and deploy
