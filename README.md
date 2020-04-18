@@ -19,6 +19,8 @@ contract HelloWorld {
   }
 }
 ```
+PZ: on ubuntu 18 virtual box vm
+PZ: Does not work so check in contracts folder for needed changes
 ## PZ UNTIl HERE
 
 ### 2. Compile and deploy
